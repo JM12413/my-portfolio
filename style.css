@@ -368,3 +368,41 @@ body {
 .footer-link:hover {
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+
+  /* Navbar: hide center links, stack if needed */
+  .nav-center {
+    display: none;
+  }
+
+  /* Hero: stack image below text instead of side-by-side */
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-left {
+    max-width: 100%;
+  }
+
+  /* About columns: stack skills/hobbies instead of side-by-side */
+  .about-columns {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  /* Outputs: cards already wrap, but shrink width so 1 fits per row */
+  .output-card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  /* Footer: stack text and links instead of side-by-side */
+  .footer-container {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+}
