@@ -296,6 +296,7 @@ body {
 }
 
 .output-card {
+  height: 720px;
   width: 320px;
   background-color: #ffffff;
   border-radius: 16px;
