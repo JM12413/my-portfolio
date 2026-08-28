@@ -93,6 +93,8 @@ body {
     background-color: #295DCE;
 }
 
+<----- Profile Section ------>
+
 .hero-section {
   width: 100%;
   min-height: 520px;
@@ -303,6 +305,7 @@ body {
   padding: 10px;
   border: 1px solid #f1f5f9;
   box-shadow: 0 10px 20px rgba(15, 23, 42, 0.05);
+  display: flex;
   text-align: center;
 }
 
