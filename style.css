@@ -93,8 +93,6 @@ body {
     background-color: #295DCE;
 }
 
-<----- Profile Section ------>
-
 .hero-section {
   width: 100%;
   min-height: 520px;
@@ -298,6 +296,7 @@ body {
 }
 
 .output-card {
+  height: 1000px;
   width: 320px;
   background-color: #ffffff;
   border-radius: 16px;
@@ -309,7 +308,7 @@ body {
 
 .output-image-box {
   width: 100%;
-  height: 320px;
+  height: 360px;
   border-radius: 12px;
   overflow: hidden;
 }
